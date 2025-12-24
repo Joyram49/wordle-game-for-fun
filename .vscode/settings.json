@@ -1,0 +1,39 @@
+{
+  "files.eol": "\n",
+  // Format code automatically on save
+  "editor.formatOnSave": true,
+  // Use Prettier as the formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // ESLint fixes (unused imports, etc.) on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // Ensure ESLint runs on these file types
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  // Indentation preferences
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+
+  // Explicitly set Prettier for each language (prevents conflicts)
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": ["Wordle"]
+}
