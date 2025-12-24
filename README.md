@@ -55,10 +55,15 @@ Gray ⬜ = Letter not in word
 
 6 attempts max - Try Again for new word!
 
-📁 Project Structure text wordle-game/ ├── app/ │ └── page.tsx # Main game
-component ├── components/ │ └── how-to-play.tsx # Game instructions ├──
-public/ # Static assets ├── tailwind.config.ts # Tailwind configuration └──
-package.json 🤝 Contributing Fork the project
+📁 Project Structure
+wordle-game/
+├── app/
+│   └── page.tsx          # Main game component
+├── components/
+│   └── how-to-play.tsx   # Game instructions
+├── public/               # Static assets
+├── tailwind.config.ts    # Tailwind configuration
+└── package.json
 
 Create your feature branch (git checkout -b feature/amazing-feature)
 
