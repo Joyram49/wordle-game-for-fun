@@ -1,30 +1,27 @@
-Wordle Game 🎮 A fully functional Wordle clone built with React and Tailwind
-CSS. Guess the 5-letter word in 6 attempts with color-coded feedback (🟩🟨⬜).
+# Wordle Game 🎮
 
-✨ Features
+A fully functional Wordle clone built with **React** and **Tailwind CSS**. Guess
+the 5-letter word in 6 attempts with color-coded feedback (🟩🟨⬜).
 
-✅ 6 attempts to guess the 5-letter word
+## ✨ Features
 
-🎨 Color feedback: Green (correct position), Yellow (wrong position), Gray (not
-in word)
+- ✅ **6 attempts** to guess the 5-letter word
+- 🎨 **Color feedback**: Green (correct position), Yellow (wrong position), Gray
+  (not in word)
+- ⌨️ **Keyboard navigation**: Auto-focus next input, Backspace support
+- 📱 **Fully responsive** design (mobile, tablet, desktop)
+- 🔄 **Try Again** button generates **new random word**
+- 🛡️ **Input validation**: Only letters allowed
+- 🎉 **Win/lose states** with celebratory messages
 
-⌨️ Keyboard navigation: Auto-focus next input, Backspace support
+## 🛠 Tech Stack
 
-📱 Fully responsive design (mobile, tablet, desktop)
-
-🔄 Try Again button generates new random word
-
-🛡️ Input validation: Only letters allowed
-
-🎉 Win/lose states with celebratory messages
-
-🛠 Tech Stack React 18 with TypeScript
-
-Tailwind CSS for styling
-
-Faker.js for random word generation
-
-Next.js 14 (App Router)
+| Technology     | Purpose               |
+| -------------- | --------------------- |
+| **React 18**   | Game logic & UI       |
+| **Next.js 14** | App Router framework  |
+| **Tailwind**   | Responsive styling    |
+| **Faker.js**   | Random 5-letter words |
 
 🚀 Quick Start Prerequisites Node.js 18+
 
@@ -67,6 +64,8 @@ wordle-game/
 ├── tailwind.config.ts    # Tailwind configuration
 └── package.json
 
+```
+
 Create your feature branch (git checkout -b feature/amazing-feature)
 
 Commit your changes (git commit -m 'feat: add amazing feature')
@@ -79,4 +78,7 @@ Open a Pull Request
 
 Made with ❤️ using React - Deployed on Vercel/Netlify ✨ Star this repo if you
 found it useful!
+
+```
+
 ```
