@@ -1,7 +1,6 @@
 Wordle Game 🎮 A fully functional Wordle clone built with React and Tailwind
 CSS. Guess the 5-letter word in 6 attempts with color-coded feedback (🟩🟨⬜).
 
-[![Wordle Game Demo](https://via.placeholder.com/800x400/10B981/FFFFFF?text=Wordle+Game+##
 ✨ Features
 
 ✅ 6 attempts to guess the 5-letter word
