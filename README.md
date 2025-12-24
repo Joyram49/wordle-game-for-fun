@@ -56,6 +56,8 @@ Gray ⬜ = Letter not in word
 6 attempts max - Try Again for new word!
 
 📁 Project Structure
+
+```
 wordle-game/
 ├── app/
 │   └── page.tsx          # Main game component
@@ -77,3 +79,4 @@ Open a Pull Request
 
 Made with ❤️ using React - Deployed on Vercel/Netlify ✨ Star this repo if you
 found it useful!
+```
